@@ -10,7 +10,7 @@ In this case, frequency modulation (FM) is used. In addition, amplitude modulati
 ## Code details...
 This script ([`virus_sig.m`](https://github.com/Rc-W024/CyberAttk_SP/blob/main/virus_sig.m)) is a simple simulation program for modulating computer virus signal. It is mainly divided into the following four parts:
 
-该脚本是一个模拟计算机病毒信号调制的程序。主要分为四个部分：病毒代码数据流生成、调制信号生成、频率调制和绘图。
+该脚本是一个模拟计算机病毒信号调制的程序。主要分为四个部分：病毒代码模拟数据流生成、调制信号生成、频率调制和绘图。
 
 **1. Generation of computer code data stream**
 
