@@ -8,7 +8,7 @@ In this case, frequency modulation (FM) is used. In addition, amplitude modulati
 在本例中，使用了频率调制（调频）的方式。除此之外，还可根据实际情况选择调幅和调相。调频技术通常运用在甚高频段（VHF无线电波段）上的高保真音乐和语音的无线电广播，是广泛用于传递信息的调制方式。
 
 ## Code details...
-This script is a simulation program for modulating computer virus signal. It is mainly divided into the following four parts:
+This script ([virus_sig.m](https://github.com/Rc-W024/CyberAttk_SP/blob/main/virus_sig.m)) is a simulation program for modulating computer virus signal. It is mainly divided into the following four parts:
 
 该脚本是一个模拟计算机病毒信号调制的程序。主要分为四个部分：病毒代码数据流生成、调制信号生成、频率调制和绘图。
 
