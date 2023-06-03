@@ -13,7 +13,7 @@ Computer virus propagation simulation for printing the propagation curve.
 
 计算机病毒传播仿真以绘制计算机网络中病毒的传播曲线图。
 
-![image](https://github.com/Rc-W024/CyberAttk_SP/assets/97808991/4ce2d3cc-d5ac-4cb7-b007-00a3a2114a28)
+<img src="https://github.com/Rc-W024/CyberAttk_SP/assets/97808991/4ce2d3cc-d5ac-4cb7-b007-00a3a2114a28" width=500px/>
 
 ### Signal modulation
 This script ([`virus_sig.m`](https://github.com/Rc-W024/CyberAttk_SP/blob/main/virus_sig.m)) is a simple simulation program for modulating computer virus signal. It is mainly divided into the following four parts:
