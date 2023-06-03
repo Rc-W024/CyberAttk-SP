@@ -1,13 +1,21 @@
 # Signal Theory in Information Security and Cyber Attacks
-This project simulates a basic framework for modulating computer virus code converted into a binary data stream into the transmitted signal of an echo-free radar, aiming to study signal processing techniques related to cyberattacks and defense, as well as the feasibility of radiation injection.
+In this project, firstly, the mathematical model of computer virus propagation is studied, and the characteristics of virus propagation are analyzed through the simulation curve. Then, a basic framework for modulating computer virus code converted into a binary data stream into the transmitted signal of an echo-free radar is simulated, aiming to study signal processing techniques related to cyberattacks and defense, as well as the feasibility of radiation injection.
 
-本项目模拟了将被转换为二进制数据流的计算机病毒代码调制到无回波雷达的发射信号中的简单框架，旨在研究用于网络攻防领域的相关信号处理技术，并学习研究此类辐射注入的可行性。
+本项目首先研究了计算机病毒传播的数学模型，并通过仿真曲线图分析了病毒传播的特性。随后，模拟了将被转换为二进制数据流的计算机病毒代码调制到无回波雷达的发射信号中的简单框架，旨在研究用于网络攻防领域的相关信号处理技术，并学习研究此类辐射注入的可行性。
 
 In this case, frequency modulation (FM) is used. In addition, amplitude modulation (AM) and phase modulation (PM) can also be selected according to the actual situation. FM technology is usually used in high-fidelity music and voice radio broadcasts on the very high frequency band (VHF radio band), and is a widely used modulation method for transmitting information.
 
 在本例中，使用了频率调制（调频）的方式。除此之外，还可根据实际情况选择调幅和调相。调频技术通常运用在甚高频段（VHF无线电波段）上的高保真音乐和语音的无线电广播，是广泛用于传递信息的调制方式。
 
 ## Code details...
+### Propagation mathematical model
+Computer virus propagation simulation for printing the propagation curve.
+
+计算机病毒传播仿真以绘制计算机网络中病毒的传播曲线图。
+
+![image](https://github.com/Rc-W024/CyberAttk_SP/assets/97808991/4ce2d3cc-d5ac-4cb7-b007-00a3a2114a28)
+
+### Signal modulation
 This script ([`virus_sig.m`](https://github.com/Rc-W024/CyberAttk_SP/blob/main/virus_sig.m)) is a simple simulation program for modulating computer virus signal. It is mainly divided into the following four parts:
 
 该脚本是一个模拟计算机病毒信号调制的程序。主要分为四个部分：病毒代码模拟数据流生成、调制信号生成、频率调制和绘图。
