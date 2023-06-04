@@ -13,7 +13,7 @@ In this case, frequency modulation (FM) is used. In addition, amplitude modulati
 
 计算机病毒传播仿真以绘制计算机网络中病毒的传播曲线图。
 
-$A$
+Mathematical expectation 数学期望: $E\left (X_{n}\right )=\frac{N}{1+\left (\frac{N}{X_{0}}-1\right )e^{-n\frac{M}{N}}}=\frac{N}{1+\left (N-1\right )e^{-n\frac{M}{N}}}$
 
 <img src="https://github.com/Rc-W024/CyberAttk_SP/assets/97808991/4ce2d3cc-d5ac-4cb7-b007-00a3a2114a28" width=500px/>
 
