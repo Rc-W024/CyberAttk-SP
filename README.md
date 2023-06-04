@@ -9,9 +9,11 @@ In this case, frequency modulation (FM) is used. In addition, amplitude modulati
 
 ## Code details...
 ### Propagation mathematical model
-Computer virus propagation simulation for printing the propagation curve.
+[`sim_propagation.m`](https://github.com/Rc-W024/CyberAttk_SP/blob/main/sim_propagation.m): Computer virus propagation simulation for printing the propagation curve.
 
 计算机病毒传播仿真以绘制计算机网络中病毒的传播曲线图。
+
+$A$
 
 <img src="https://github.com/Rc-W024/CyberAttk_SP/assets/97808991/4ce2d3cc-d5ac-4cb7-b007-00a3a2114a28" width=500px/>
 
