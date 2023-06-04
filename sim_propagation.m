@@ -16,5 +16,7 @@ Xn=N./(1+(N-1)*exp(-time*M/N));
 
 % make plot...
 plot(time,Xn)
+grid on
 xlabel('Time')
 ylabel('Number of virus-infected computers')
+%set(gca,'Box','off')
