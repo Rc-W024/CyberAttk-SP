@@ -4,7 +4,7 @@ clear;
 
 %%% adjuste according to the actual situation %%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-fs = 1e9; % sampling frequecy
+fs=1e9; % sampling frequecy
 fc=120e9; % center freq: 120 GHz - THz radar transmitter
 bitRate=1e6; % data rate
 numBits=500; % % number of binary digits
