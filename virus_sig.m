@@ -24,6 +24,10 @@ numSamplesBit=round(bitDuration*fs);
 %% Step 2: Generate a carrier signal
 t=(0:numBits*numSamplesBit-1)/fs;
 carrierSig=zeros(1,length(t));
+
+% figure;
+% plot(carrierSig)
+
 for i=1:numBits
     bit=data_binary(i);
     carrierSig((i-1)*numSamplesBit+1:i*numSamplesBit)=bit;
