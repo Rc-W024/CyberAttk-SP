@@ -24,7 +24,7 @@ This script ([`virus_sig.m`](https://github.com/Rc-W024/CyberAttk_SP/blob/main/v
 
 This code is a simulation of a computer virus attack and it involves signal modulation techniques.
 
-Step 1: Generate a random computer code data stream to simulate the virus. 生成一个随机的计算机代码数据流来模拟病毒。
+Step 1: Generate a random code data stream to simulate the computer virus. 生成一个随机的代码数据流来模拟计算机病毒。
 
 Step 2: Carrier signal generation. A carrier signal with `fc` using the cosine function. 生成载波信号，并生成一个频率为`fc`的载波（余弦）信号。
 
