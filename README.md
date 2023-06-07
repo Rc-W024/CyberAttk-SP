@@ -23,3 +23,10 @@ This script ([`virus_sig.m`](https://github.com/Rc-W024/CyberAttk_SP/blob/main/v
 该脚本是一个简单的仿真计算机病毒信号调制的程序。主要分为三部分：病毒代码模拟数据流生成、载波信号生成和信号调制。
 
 This code is a simulation of a computer virus attack and it involves signal modulation techniques.
+
+Step 1: Generate a random computer code data stream to simulate the virus. 生成一个随机的计算机代码数据流来模拟病毒。
+
+Step 2: Carrier signal generation. A carrier signal with `fc` using the cosine function. 生成载波信号，并生成一个频率为`fc`的载波（余弦）信号。
+
+Step 3: FSK modulation. For each binary data bit, if its value is $0$, set the frequency of the carrier signal to $f_{c}-bitRate/2$; if the value is $1$, set the frequency to $f_{c}+bitRate/2$, to generate the modulated signal. FSK调制。对于每个二进制数据位，如果它的值为 $0$ ，则将载波信号的频率设置为 $f_{c}-bitRate/2$ ；如果值为 $1$ ，则将载波信号的频率设置为 $f_{c}+bitRate/2$ ，从而生成调制信号。
+
