@@ -30,6 +30,6 @@ This code is a simulation of a computer virus attack and it involves signal modu
 **Step 2:** Carrier signal generation. A carrier signal with `fc` using the cosine function.
 <br>生成载波信号，并生成一个频率为`fc`的载波（余弦）信号。
 
-**Step 3:** FSK modulation. For each binary data bit, if its value is $0$, set the frequency of the carrier signal to $f_{c}-bitRate/2$; if the value is $1$, set the frequency to $f_{c}+bitRate/2$, to generate the modulated signal.
-<br>FSK调制。对于每个二进制数据位，如果它的值为 $0$ ，则将载波信号的频率设置为 $f_{c}-bitRate/2$ ；如果值为 $1$ ，则将载波信号的频率设置为 $f_{c}+bitRate/2$ ，从而生成调制信号。
+**Step 3:** FSK modulation. For each binary data bit, if its value is $0$, set the frequency of the carrier signal to $f_{c}-bitRate/2$; if the value is $1$, set the frequency to $f_{c}+bitRate/2$, to generate the modulated signal. Finally, the modulation signal is added to the carrier signal to generate the signal to be emitted.
+<br>FSK调制。对于每个二进制数据位，如果它的值为 $0$ ，则将载波信号的频率设置为 $f_{c}-bitRate/2$ ；如果值为 $1$ ，则将载波信号的频率设置为 $f_{c}+bitRate/2$ ，从而生成调制信号。最后，将调制信号与载波信号相加，生成待发射信号。
 
