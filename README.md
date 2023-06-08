@@ -24,9 +24,12 @@ This script ([`virus_sig.m`](https://github.com/Rc-W024/CyberAttk_SP/blob/main/v
 
 This code is a simulation of a computer virus attack and it involves signal modulation techniques.
 
-**Step 1:** Generate a random code data stream to simulate the computer virus. 生成一个随机的代码数据流来模拟计算机病毒。
+**Step 1:** Generate a random code data stream to simulate the computer virus.
+<br>生成一个随机的代码数据流来模拟计算机病毒。
 
-**Step 2:** Carrier signal generation. A carrier signal with `fc` using the cosine function. 生成载波信号，并生成一个频率为`fc`的载波（余弦）信号。
+**Step 2:** Carrier signal generation. A carrier signal with `fc` using the cosine function.
+<br>生成载波信号，并生成一个频率为`fc`的载波（余弦）信号。
 
-**Step 3:** FSK modulation. For each binary data bit, if its value is $0$, set the frequency of the carrier signal to $f_{c}-bitRate/2$; if the value is $1$, set the frequency to $f_{c}+bitRate/2$, to generate the modulated signal. FSK调制。对于每个二进制数据位，如果它的值为 $0$ ，则将载波信号的频率设置为 $f_{c}-bitRate/2$ ；如果值为 $1$ ，则将载波信号的频率设置为 $f_{c}+bitRate/2$ ，从而生成调制信号。
+**Step 3:** FSK modulation. For each binary data bit, if its value is $0$, set the frequency of the carrier signal to $f_{c}-bitRate/2$; if the value is $1$, set the frequency to $f_{c}+bitRate/2$, to generate the modulated signal.
+<br>FSK调制。对于每个二进制数据位，如果它的值为 $0$ ，则将载波信号的频率设置为 $f_{c}-bitRate/2$ ；如果值为 $1$ ，则将载波信号的频率设置为 $f_{c}+bitRate/2$ ，从而生成调制信号。
 
