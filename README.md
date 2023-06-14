@@ -1,7 +1,7 @@
 # Signal Theory in Information Security and Cyber Attacks
 In this project, firstly, the mathematical model of computer virus propagation is studied, and the characteristics of virus propagation are analyzed through the simulation curve. Then, a basic framework for modulating computer virus code converted into a binary data stream into the transmitted signal of an echo-free radar is simulated, aiming to study signal processing techniques related to cyberattacks and defense, as well as the feasibility of radiation injection.
 
-本项目首先研究了计算机病毒传播的数学模型，并通过仿真曲线图分析了病毒传播的特性。随后，模拟了将被转换为二进制数据流的计算机病毒代码调制到无回波雷达的发射信号中的简单框架，旨在研究用于网络攻防领域的相关信号处理技术，并学习研究此类辐射注入的可行性。
+本项目首先研究了计算机病毒传播的数学模型，并通过仿真曲线图分析了病毒传播的特性。随后，模拟了将被转换为二进制数据流的计算机病毒代码调制到无回波雷达的发射信号中的简单框架，旨在研究用于网络攻防领域的相关信号处理技术，并讨论此类辐射注入的可行性。
 
 In this case, **Frequency Shift Keying** (FSK) is used. In addition, phase shift keying (PSK), amplitude modulation (AM), phase modulation (PM), and quadrature amplitude modulation (QAM) can also be selected according to the actual situation.
 
