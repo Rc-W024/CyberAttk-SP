@@ -11,7 +11,7 @@ In this case, **Frequency Shift Keying** (FSK) is used. In addition, phase shift
 ### Propagation mathematical model
 [`sim_propagation.m`](https://github.com/Rc-W024/CyberAttk_SP/blob/main/sim_propagation.m): Computer virus propagation simulation for printing the propagation curve.
 
-计算机病毒传播仿真以绘制计算机网络中病毒的传播曲线图。
+计算机病毒传播仿真及绘制计算机网络中病毒的传播曲线图：
 
 Mathematical expectation 数学期望: $E\left (X_{n}\right )=\frac{N}{1+\left (\frac{N}{X_{0}}-1\right )e^{-n\frac{M}{N}}}=\frac{N}{1+\left (N-1\right )e^{-n\frac{M}{N}}}$
 
