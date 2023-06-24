@@ -20,8 +20,6 @@ Mathematical expectation: $E\left (X_{n}\right )=\frac{N}{1+\left (\frac{N}{X_{0
 ### Signal modulation
 This script ([`virus_sig.m`](https://github.com/Rc-W024/CyberAttk_SP/blob/main/virus_sig.m)) is a simple simulation program for modulating computer virus signal. It is mainly divided into the following four parts:
 
-该脚本是一个简单的仿真计算机病毒信号调制的程序。主要分为三部分：病毒代码模拟数据流生成、载波信号生成和信号调制。
-
 This code is a simulation of a computer virus attack and it involves signal modulation techniques.
 
 **Step 1:** Generate a random code data stream to simulate the computer virus.
