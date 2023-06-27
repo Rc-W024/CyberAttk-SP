@@ -13,6 +13,7 @@ zeropad=16; % zero-padding
 
 %% Step 1: Generate a random stream of computer code data to simulate a virus
 % code data generation
+% like Hexadecimal to Binary...
 data_binary=randi([0 1],1,numBits);  % generate random binary data
 bitDuration=1/bitRate; % duration of each bit of data
 
