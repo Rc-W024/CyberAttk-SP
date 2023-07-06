@@ -17,6 +17,8 @@ Mathematical expectation: $E\left (X_{n}\right )=\frac{N}{1+\left (\frac{N}{X_{0
 
 <img src="https://github.com/Rc-W024/CyberAttk_SP/assets/97808991/4ce2d3cc-d5ac-4cb7-b007-00a3a2114a28" width=500px/>
 
+Please find the detalle in the arXiv paper: [arXiv:2306.17508v1 **[cs.CR]**](https://arxiv.org/abs/2306.17508)
+
 ### Signal modulation
 This script ([`virus_sig.m`](https://github.com/Rc-W024/CyberAttk_SP/blob/main/virus_sig.m)) is a simple simulation program for modulating computer virus signal. It is mainly divided into the following four parts:
 
