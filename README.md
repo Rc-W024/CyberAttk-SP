@@ -17,7 +17,7 @@ Mathematical expectation: $E\left (X_{n}\right )=\frac{N}{1+\left (\frac{N}{X_{0
 
 <img src="https://github.com/Rc-W024/CyberAttk_SP/assets/97808991/4ce2d3cc-d5ac-4cb7-b007-00a3a2114a28" width=500px/>
 
-Please find the detalle in the arXiv paper: [arXiv:2306.17508v1 **[cs.CR]**](https://arxiv.org/abs/2306.17508)
+Please find the details in the arXiv paper: [arXiv:2306.17508v1 **[cs.CR]**](https://arxiv.org/abs/2306.17508)
 
 ### Signal modulation
 This script ([`virus_sig.m`](https://github.com/Rc-W024/CyberAttk_SP/blob/main/virus_sig.m)) is a simple simulation program for modulating computer virus signal. It is mainly divided into the following four parts:
@@ -32,4 +32,8 @@ This code is a simulation of a computer virus attack and it involves signal modu
 
 **Step 3:** FSK modulation. For each binary data bit, if its value is $0$, set the frequency of the carrier signal to $f_{c}-bitRate/2$; if the value is $1$, set the frequency to $f_{c}+bitRate/2$, to generate the modulated signal. Finally, the modulation signal is added to the carrier signal to generate the signal to be emitted.
 <br>FSK调制。对于每个二进制数据位，如果它的值为 $0$ ，则将载波信号的频率设置为 $f_{c}-bitRate/2$ ；如果值为 $1$ ，则将载波信号的频率设置为 $f_{c}+bitRate/2$ ，从而生成调制信号。最后，将调制信号与载波信号相加，生成待发射信号。
+
+## Relevant preprint paper
+Ruochen Wu. Research on Virus Cyberattack-Defense Based on Electromagnetic Radiation. arXiv. 2023, arXiv:2306.17508. DOI: [10.48550/arXiv.2306.17508](
+https://doi.org/10.48550/arXiv.2306.17508)
 
