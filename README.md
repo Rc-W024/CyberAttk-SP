@@ -3,9 +3,9 @@ In this project, firstly, the mathematical model of computer virus propagation i
 
 本项目首先研究了计算机病毒传播的数学模型，并通过仿真曲线图分析了病毒传播的特性。随后，模拟了将被转换为二进制数据流的计算机病毒代码调制到雷达（无线电发射机）的发射信号中的简单框架，旨在研究用于网络攻防领域的相关信号处理技术，并讨论此类辐射注入的可行性。
 
-In this case, **Frequency Shift Keying** (FSK) is used. In addition, phase shift keying (PSK), amplitude modulation (AM), phase modulation (PM), and quadrature amplitude modulation (QAM) can also be selected according to the actual situation.
+In this case, Frequency Shift Keying (FSK) is used. In addition, phase shift keying (PSK), amplitude modulation (AM), phase modulation (PM), and quadrature amplitude modulation (QAM) can also be selected according to the actual situation.
 
-在本例中，使用了**键控频移**调制的方式。除此之外，还可根据实际情况选择相移键控、调幅、调相和正交调幅等方式。
+在本例中，使用了键控频移调制的方式。除此之外，还可根据实际情况选择相移键控、调幅、调相和正交调幅等方式。
 
 ## Code details...
 ### Propagation mathematical model
