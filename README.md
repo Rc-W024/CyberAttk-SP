@@ -1,4 +1,6 @@
 # Signal Theory in Information Security and Cyber Attacks
+[**Research on Virus Cyberattack-Defense Based on Electromagnetic Radiation**](https://doi.org/10.48550/arXiv.2306.17508)
+
 In this project, firstly, the mathematical model of computer virus propagation is studied, and the characteristics of virus propagation are analyzed through the simulation curve. Then, a basic framework for modulating computer virus code converted into a binary data stream into the transmitted signal of an echo-free radar (radio transmitter) is simulated, aiming to study signal processing techniques related to cyberattacks and defense, as well as the feasibility of radiation injection.
 
 本项目首先研究了计算机病毒传播的数学模型，并通过仿真曲线图分析了病毒传播的特性。随后，模拟了将被转换为二进制数据流的计算机病毒代码调制到雷达（无线电发射机）的发射信号中的简单框架，旨在研究用于网络攻防领域的相关信号处理技术，并讨论此类辐射注入的可行性。
@@ -33,7 +35,19 @@ This code is a simulation of a computer virus attack and it involves signal modu
 **Step 3:** FSK modulation. For each binary data bit, if its value is $0$, set the frequency of the carrier signal to $f_{c}-bitRate/2$; if the value is $1$, set the frequency to $f_{c}+bitRate/2$, to generate the modulated signal. Finally, the modulation signal is added to the carrier signal to generate the signal to be emitted.
 <br>FSK调制。对于每个二进制数据位，如果它的值为 $0$ ，则将载波信号的频率设置为 $f_{c}-bitRate/2$ ；如果值为 $1$ ，则将载波信号的频率设置为 $f_{c}+bitRate/2$ ，从而生成调制信号。最后，将调制信号与载波信号相加，生成待发射信号。
 
-## Relevant preprint paper
-Ruochen Wu. Research on Virus Cyberattack-Defense Based on Electromagnetic Radiation. arXiv. 2023, arXiv:2306.17508. DOI: [10.48550/arXiv.2306.17508](
-https://doi.org/10.48550/arXiv.2306.17508)
+## FYI
+Citation:
 
+```bibtex
+@article{wu2023cybersp,
+ title={Research on Virus Cyberattack-Defense Based on Electromagnetic Radiation}, 
+ author={Ruochen Wu},
+ year={2023},
+ number={2306.17508},
+ journal={arXiv},
+ issn={2331-8422},
+ url={https://doi.org/10.48550/arXiv.2306.17508},
+ doi={10.48550/arXiv.2306.17508},
+ primaryClass={cs.CR}
+}
+```
